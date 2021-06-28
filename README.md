@@ -7,12 +7,10 @@ This Repository is a collection of some of my webscraper scripts for several pro
   2. Gymshark Availability Checker
 
 
-
 ### 1.WGgesucht Scraper
 
-This Scraper is used to create a DataFrame of the frontpage overview for a city. It Scrapes the tiles and adds them. 
-Because of DoS Protection there is artificial time added between each page request.
-Because of the different content types for a tile. This scraper can only read tiles for WGs and not appartments. <br>
+This Scraper is used to create a DataFrame of the WG gesucht frontpage overview for a single city.
+Because of the different content types for a tile this scraper can only read tiles for WGs and not appartments. <br>
 https://www.wg-gesucht.de/wg-zimmer-in-Munster.91.0.1.1.html?category=0&city_id=91&rent_type=0&img=1&rent_types%5B0%5D=0 <br> <br>
 To use this script you need to adjust the link in the script because the website iterates over the last integer before .html
 This Script uses the Python Library BeautifulSoup <br>
