@@ -15,6 +15,7 @@ Because of DoS Protection there is artificial time added between each page reque
 Because of the different content types for a tile. This scraper can only read tiles for WGs and not appartments. <br>
 https://www.wg-gesucht.de/wg-zimmer-in-Munster.91.0.1.1.html?category=0&city_id=91&rent_type=0&img=1&rent_types%5B0%5D=0 <br> <br>
 To use this script you need to adjust the link in the script because the website iterates over the last integer before .html
+This Script uses the Python Library BeautifulSoup <br>
 For automated use I recommend WindowsTaskSceduler or CronJobs with the prefered time Intervall. <br>
 https://www.jcchouinard.com/python-automation-using-task-scheduler/
 <br>
@@ -28,13 +29,14 @@ For me I want to know about the prices in Berlin as I am currently on search for
 
 ### 2. Gymshark Availability Checker
 
-Shoutout to my friend Marek that needed new trackpants. 
-This scraper is dedicated to checking availability of a certain article of the Gymshark page.
-The reason this Script was needed is because of the lacking of an email notification system. <br>
-To use this script once you need to put in the link and needed size of the article. 
+Shoutout to my friend Marek who needed new trackpants. 
+This scraper is dedicated to checking availability of a certain article on the Gymshark page.
+The reason this Script was needed is because of the lack of an email notification system. <br>
+To use this script once you need to put in the link and the prefered size of the article. 
 <br>
 This Script uses Selenium because of the dynamic elements of the page that need to load before you can check for the given article and it's size.
 Because this script uses selenium you should be aware of the chosen browser to open the website.
+https://www.selenium.dev/documentation/en/
 <br>
 For automated use I recommend WindowsTaskSceduler or CronJobs with the prefered time Intervall.
 https://www.jcchouinard.com/python-automation-using-task-scheduler/
